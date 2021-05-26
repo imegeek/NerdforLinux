@@ -2,7 +2,7 @@
 
 if [[ $1 == "install" ]]
  then
-   cp $(pwd)/font/'Nerd Font Complete.ttf' /usr/share/fonts
+   sudo cp $(pwd)/font/'Nerd Font Complete.ttf' /usr/share/fonts
    fc-cache -fv
    printf "Done :: Restart Terminal."
 fi
